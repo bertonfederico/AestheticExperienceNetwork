@@ -42,7 +42,7 @@ class RadarGraph extends Abstract2DGraph {
             const point = polarToCartesian(0, 0, this.linearScale(Math.abs(link.weight)), ((angle+quant/2)*180)/Math.PI);
             point.description = link.source + " - " + link.target + " -> " + link.weight;
             points.push(point);
-            this.createLines(radiusSvg, angle);
+            this.createLines(radiusSvg, angle+quant/2);
             this.createLables(radiusSvg, angle+quant/2, link.source == effect ? link.target : link.source);
         });
         this.createPolygon(radiusSvg, points, option, color, !drawCircles);

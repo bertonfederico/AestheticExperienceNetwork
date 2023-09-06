@@ -33,6 +33,7 @@ function readFileFromPath(file) {
 		createAverageGraph(averageData);
 		setUpFileName(input.files.item(0).name.trim());
 		createInformationVisualization();
+		viewButtons();
 	};
 	reader.readAsArrayBuffer(file);
 }
@@ -108,4 +109,10 @@ function createInformationVisualization() {
 	RadarGraph.setUpSlideShow();
 	Force3DGraph.setUpSlideShow();
 	SurfaceGraph.setUpSlideShow();
+}
+
+function viewButtons() {
+	document.getElementById("dots").style.visibility = 'visible';
+	document.getElementById("sxButton").style.visibility = 'visible';
+	document.getElementById("dxButton").style.visibility = 'visible';
 }

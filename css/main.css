@@ -10,7 +10,9 @@ body {
   background-repeat: no-repeat;
 }
 
-
+select, option {
+  text-align: center;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -85,4 +87,25 @@ body {
 .slideTitle {
   margin-bottom:15px;
   margin-top:15px;
+}
+
+select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.15em 0.5em;
+  font-size: 0.9rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #d6b3ba;
+  /*background-image: linear-gradient(to top, #f9f9f9, #fff 33%);*/
+}
+
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 45%;
 }

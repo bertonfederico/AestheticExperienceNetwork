@@ -17,59 +17,68 @@
         </div>
         <div class="mySlides fade" id = "cartesianGraphs">
             <div class="title"> <h2 class="slideTitle"> Cartesian graphs </h2> </div>
-            <select name="cartesianSelector" id="cartesianSelector" onchange="CartesianGraph.onChangeDrop(event)"></select>
+            <div style="display: grid; grid-template-columns: 50% 50%; justify-items: center;">
+                <select name="cartesianSelector" id="cartesianSelector" onchange="CartesianGraph.onChangeDrop(event)"></select>
+            </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 20% 20%; justify-items: center;" id = "cartesianGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "tableGraphs">
             <div class="title"> <h2 class="slideTitle"> Table graphs </h2> </div>
-            <select name="tableSelector" id="tableSelector" onchange="TableGraph.onChangeDrop(event)"></select>
+            <div style="display: grid; grid-template-columns: 50% 50%; justify-items: center;">
+                <select name="tableSelector" id="tableSelector" onchange="TableGraph.onChangeDrop(event)"></select>
+            </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 40%; justify-items: center;" id = "tableGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "networkGraph">
             <div class="title"> <h2 class="slideTitle"> Force directed graphs </h2> </div>
-            <select name="networkSelector" id="networkSelector" onchange="NetworkGraph.onChangeDrop(event)"></select>
+            <div style="display: grid; grid-template-columns: 50% 50%; justify-items: center;">
+                <select name="networkSelector" id="networkSelector" onchange="NetworkGraph.onChangeDrop(event)"></select>
+            </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 20% 20%; justify-items: center;" id = "networkGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "circularGraphs">
             <div class="title"> <h2 class="slideTitle"> Circular graphs </h2> </div>
-            <select name="circularSelector" id="circularSelector" onchange="CircularGraph.onChangeDrop(event)"></select>
+            <div style="display: grid; grid-template-columns: 50% 50%; justify-items: center;">
+                <select name="circularSelector" id="circularSelector" onchange="CircularGraph.onChangeDrop(event)"></select>
+            </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 20% 20%; justify-items: center;" id = "circularGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "radiusGraphs">
             <div class="title"> <h2 class="slideTitle"> Radius graphs </h2> </div>
             <div style="display: grid; grid-template-columns: 25% 25% 25% 25%; justify-items: center;">
-                <div></div>
                 <select name="radiusSelector1" id="radiusSelector1" onchange="RadiusGraph.onChangeDrop(event)"></select>
                 <select name="radiusSelector2" id="radiusSelector2" onchange="RadiusGraph.onChangeDrop(event)"></select> 
-                <div></div>
             </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 40%; justify-items: center;" id = "radiusGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "radarGraphs">
             <div class="title"> <h2 class="slideTitle"> Radar graphs </h2> </div>
             <div style="display: grid; grid-template-columns: 25% 25% 25% 25%; justify-items: center;">
-                <div></div>
                 <select name="radarSelector1" id="radarSelector1" onchange="RadarGraph.onChangeDrop(event)">
                     <option selected="true" value="All"> All </option>
                 </select>
                 <select name="radarSelector2" id="radarSelector2" onchange="RadarGraph.onChangeDrop(event)"></select> 
-                <div></div>
             </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 40%; justify-items: center;" id = "radarGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "threeDGraph">
             <div class="title"> <h2 class="slideTitle"> 3d force directed graphs </h2> </div>
             <div style="display: grid; grid-template-columns: 25% 25% 25% 25%; justify-items: center;">
-                <div></div>
                 <select name="threeDSelector1" id="threeDSelector1" onchange="Force3DGraph.onChangeDrop(event)">
                     <option disabled selected value> -- Select an artwork -- </option>
                 </select>
                 <select name="threeDSelector2" id="threeDSelector2" onchange="Force3DGraph.onChangeDrop(event)">
                     <option selected="true" value="1"> Same link strength </option>
                     <option value="2"> Different link strength </option>
-                </select> 
-                <div></div>
+                </select>
             </div>
+            <br>
             <div style="display: grid; grid-template-columns: 50% 10% 40%; justify-items: center;" id = "threeDGraphsContainer"></div>
         </div>
         <div class="mySlides fade" id = "surfaceGraphs">
@@ -84,6 +93,7 @@
                 </select> 
                 <div></div>
             </div>
+            <br>
             <div style="width: 100%; height: 540px" id = "surfaceGraphsContainer"></div>
         </div>
     </div>

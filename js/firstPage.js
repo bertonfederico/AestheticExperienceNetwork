@@ -1,7 +1,7 @@
 var firstPageSvg;
 
-var firstPageWidth = 1400;
-var firstPageHeight = 580;
+var firstPageWidth = window.innerHeight;
+var firstPageHeight = 550;
 
 function setUpFirstPage() {
     firstPageSvg = d3.select("#firstPageContainer").append("svg")

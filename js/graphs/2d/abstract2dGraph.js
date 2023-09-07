@@ -23,6 +23,7 @@ class Abstract2DGraph extends AbstractGraph {
     
     createLayout() {
         const containerSelection = d3.select("#" + this.tag + "GraphsContainer");
+        containerSelection.selectAll("*").remove();
         this.createGraphDiv(containerSelection);
         containerSelection.append("div");
         if (this.hasColorLegend) createColorLegend(containerSelection.append("div"), this.svgDimension, this.tag);
@@ -95,6 +96,10 @@ class Abstract2DGraph extends AbstractGraph {
         if (this.hasTwoDropdown) {
             this.effectContainer = document.getElementById(this.tag + "Selector2");
             const graph = graphData.get(graphData.keys().next().value);
+            let index = this.effectContainer.options.length;
+            while (index--) {
+                this.effectContainer.remove(index);
+            }
             graph.nodes.forEach((node) =>{
                 const li = document.createElement("option");
                 li.value = node.id;

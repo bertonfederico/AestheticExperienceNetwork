@@ -134,13 +134,14 @@ function setUpImportButton() {
 }
 
 function setUpFileName(name) {
-    d3.select("#firstPageSvg").append("text")
-        .text("Selected: " + name)
+    d3.selectAll(".xlsxFileName").remove();
+    d3.select("#firstPageSvg").append("text").text("Selected: " + name)
         .attr("x", firstPageWidth/2)
         .attr("y", firstPageHeight/2+25)
         .attr("text-anchor", "middle")
         .style("fill", "white")
         .style("font-family", "Compacta")
         .style("font-size", "15px")
-        .attr("font-weight", 300);
+        .attr("font-weight", 300)
+        .classed("xlsxFileName", true);
 }

@@ -24,6 +24,7 @@ class Force3DGraph extends Abstract3DGraph {
     
     createLayout() {
         const containerSelection = d3.select("#" + this.tag + "GraphsContainer");
+		containerSelection.selectAll("*").remove();
 		this.elementDiv = containerSelection.append("div");
 		this.elementDiv
 			.append("svg").attr("width", this.svgDimension).attr("height", this.svgDimension)

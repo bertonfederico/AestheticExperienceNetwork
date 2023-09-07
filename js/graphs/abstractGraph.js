@@ -13,7 +13,7 @@ class AbstractGraph {
         this.artworkContainer = this.hasTwoDropdown ? document.getElementById(this.tag + "Selector1") :  document.getElementById(this.tag + "Selector");
         let index = this.artworkContainer.options.length;
         while (index--) {
-            this.artworkContainer.remove(index);
+            if (this.artworkContainer.options[index].value != "All") this.artworkContainer.remove(index);
         }
         graphData.forEach((value, key) =>{
             const li = document.createElement("option");

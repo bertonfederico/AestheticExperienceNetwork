@@ -1,4 +1,7 @@
 # AestheticExperienceNetwork
+
+![alt text](https://github.com/bertonfederico/AestheticExperienceNetwork/blob/eaa98664baccc1488522df325fbf222fbaa9d960/screenshot/first_page.png)
+
 ## Description of the project
 The project aims to
 - develop a system for visualizing a dataset that is intended to represent eight networks that model an aesthetic experience of the viewers when observing artworks;

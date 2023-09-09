@@ -72,7 +72,7 @@ The dataset used in the project are the result of the research presented in the 
 <table align="center" style="width:100%">
 	<thead><tr>
 		<th style="width:50%">Graph</th>
-		<th style="width:50%">Color legend</th>
+		<th style="width:50%">Color&radius legend</th>
 	</tr></thead>
 	<tbody><tr>
 		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radarGraphs.png" height="400" /></td>
@@ -85,7 +85,7 @@ The dataset used in the project are the result of the research presented in the 
 <table align="center" style="width:100%">
 	<thead><tr>
 		<th style="width:50%">Graph</th>
-		<th style="width:50%">Color legend</th>
+		<th style="width:50%">Painting legend</th>
 	</tr></thead>
 	<tbody><tr>
 		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radius%20Graphs.png" height="400" /></td>

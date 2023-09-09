@@ -26,14 +26,14 @@ The dataset used in the project are the result of the research presented in the 
 
 
 ### Table graphs
-<table align="center" style="width:100%">
+<table align="center">
 	<thead><tr>
 		<th>Graph</th>
 		<th>Color legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td width=50%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png" height="400" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png" height="400" /></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png"/></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png"/></td>
 	</tr></tbody>
 </table>
 

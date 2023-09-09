@@ -32,8 +32,8 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Color legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png" /></td>
+		<td width=73.7%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png" /></td>
+		<td width=26.3%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png" /></td>
 	</tr></tbody>
 </table>
 
@@ -46,9 +46,9 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Width legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_0_legend.png" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_1_legend.png" /></td>
+		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td width=22%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_0_legend.png" /></td>
+		<td width=16%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_1_legend.png" /></td>
 	</tr></tbody>
 </table>
 
@@ -61,9 +61,9 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Width legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/4_circularGraphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_0_legend.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_1_legend.png"/></td>
+		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/4_circularGraphs.png"/></td>
+		<td width=21%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_0_legend.png"/></td>
+		<td width=16.7%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_1_legend.png"/></td>
 	</tr></tbody>
 </table>
 
@@ -75,7 +75,7 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Color&radius legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radarGraphs.png"/></td>
+		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radarGraphs.png"/></td>
 		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/5_legend.png"/></td>
 	</tr></tbody>
 </table>
@@ -88,8 +88,8 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Painting legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radius%20Graphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/legend/6_legend.png"/></td>
+		<td width=70.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radius%20Graphs.png"/></td>
+		<td width=29.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/legend/6_legend.png"/></td>
 	</tr></tbody>
 </table>
 
@@ -110,11 +110,11 @@ The dataset used in the project are the result of the research presented in the 
 ### Surface graphs
 <table align="center">
 	<thead><tr>
-		<th style="width:70%">Graph</th>
-		<th style="width:30%">Graph</th>
+		<th>Graph</th>
+		<th>Graph</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/10c29ca8ddcd4e7214f0fa7831a2b8d38232edde/screenshot/graph/8_surfaceGraphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/dcb54fe98daa65d6cdcc429a187f04bb898593d9/screenshot/legend/8_legend.png"/></td>
+		<td width=90%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/10c29ca8ddcd4e7214f0fa7831a2b8d38232edde/screenshot/graph/8_surfaceGraphs.png"/></td>
+		<td width=90%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/dcb54fe98daa65d6cdcc429a187f04bb898593d9/screenshot/legend/8_legend.png"/></td>
 	</tr></tbody>
 </table>

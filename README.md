@@ -18,9 +18,9 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Width legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/d5c29f89259dde101c39c9b81319b43471b95b27/screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/d5c29f89259dde101c39c9b81319b43471b95b27/screenshot/legend/1_0_legend.png" /></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/d5c29f89259dde101c39c9b81319b43471b95b27/screenshot/legend/1_1_legend.png" /></td>
+		<td width=64.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/graph/1_cartesianGraphs.png" /></td>
+		<td width=21.3%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/legend/1_0_legend.png" /></td>
+		<td width=14.2%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/legend/1_1_legend.png" /></td>
 	</tr></tbody>
 </table>
 
@@ -111,10 +111,10 @@ The dataset used in the project are the result of the research presented in the 
 <table align="center">
 	<thead><tr>
 		<th>Graph</th>
-		<th>Graph</th>
+		<th>Color legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td width=90%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/10c29ca8ddcd4e7214f0fa7831a2b8d38232edde/screenshot/graph/8_surfaceGraphs.png"/></td>
-		<td width=90%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/dcb54fe98daa65d6cdcc429a187f04bb898593d9/screenshot/legend/8_legend.png"/></td>
+		<td width=87%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/6f81ccaba19acc777c9dba37e0d452563f2cd291/screenshot/graph/8_surfaceGraphs.png"/></td>
+		<td width=13%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/dcb54fe98daa65d6cdcc429a187f04bb898593d9/screenshot/legend/8_legend.png"/></td>
 	</tr></tbody>
 </table>

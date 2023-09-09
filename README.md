@@ -32,8 +32,8 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Color legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png"/></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png" /></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png" /></td>
 	</tr></tbody>
 </table>
 
@@ -41,14 +41,14 @@ The dataset used in the project are the result of the research presented in the 
 ### Force directed graphs
 <table align="center">
 	<thead><tr>
-		<th">Graph</th>
+		<th>Graph</th>
 		<th>Color legend</th>
 		<th>Width legend</th>
 	</tr></thead>
 	<tbody><tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/3_forceDirectedGraphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_0_legend.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_1_legend.png"/></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_0_legend.png" /></td>
+		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_1_legend.png" /></td>
 	</tr></tbody>
 </table>
 
@@ -56,7 +56,7 @@ The dataset used in the project are the result of the research presented in the 
 ### Circular graphs
 <table align="center">
 	<thead><tr>
-		<th">Graph</th>
+		<th>Graph</th>
 		<th>Color legend</th>
 		<th>Width legend</th>
 	</tr></thead>

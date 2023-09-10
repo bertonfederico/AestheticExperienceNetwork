@@ -162,18 +162,18 @@ Both the graphs and their respective legends are created via a D3.js, a JavaScri
 ### Code example for the graph
 <pre>
 	// Creating new svg over a div for the graph
-	...
+	```javascript
 	this.svg = elementDiv.append("div")
 	    .append("svg")
 	    .attr("width", this.svgDimension)
 	    .attr("height", this.svgDimension)
 	    .attr("viewBox", [0, 0, this.svgDimension, this.svgDimension])
 	    .append("g");
-	...
+	```
 
 		
 	// Creating internal svg content
-	...
+	```javascript
 	this.svg.append('circle')
 	    .attr('cx', xCoord)
 	    .attr('cy', yCoord)
@@ -190,13 +190,13 @@ Both the graphs and their respective legends are created via a D3.js, a JavaScri
 	    })
 	    .append("title")
 	    .text(value);
-	...
+	```
 </pre>
 
 ### Code example for legends
 <pre>
 	// Creating images and numbers to form a legend
-	...
+	```javascript
 	const legendscale = d3.scaleLinear()
 		.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
 		.domain(colorScale.domain());
@@ -222,5 +222,5 @@ Both the graphs and their respective legends are created via a D3.js, a JavaScri
 		.attr("width", 80)
 		.attr("height", svgDimension-legendMargin.top-margin.bottom)
 		.attr("fill", "url(#" + tag + "colorGrad)");
-	...
+	```
 </pre>

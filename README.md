@@ -112,7 +112,7 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color&radius legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radius%20Graphs.png"/></td>
+		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radius%20Graphs.png"/></td>
 		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/5_legend.png"/></td>
 	</tr>
 </table>
@@ -125,7 +125,7 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Painting legend</th>
 	</tr>
 	<tr>
-		<td width=70.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radarGraphs.png"/></td>
+		<td width=70.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radarGraphs.png"/></td>
 		<td width=29.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/legend/6_legend.png"/></td>
 	</tr>
 </table>

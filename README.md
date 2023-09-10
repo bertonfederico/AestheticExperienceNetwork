@@ -40,6 +40,11 @@ The source dataset (.xmls) for each of the paintings analyzed contains a sheet s
 
 Consequently, if a given connection (e.g., between ***positive*** and ***active***) recorded a positive value (0.108), then, considering the opposite of either (***positive*** and ***passive***), the value becomes negative (-0.108).
 
+The goal of the project is to create visualization graphs that effectively show the connections between the aesthetic effects experienced during the observation of each painting, with the objectives of:
+- make all the reproduced aesthetic effects and their connections visible in a compact manner;
+- make the differences between the various reproduced connections visibly evident during total viewing;
+- give the ability to focus on a specific connection and view the complete data on the particular connection.
+
 
 ## Illustration of graphs obtained
 ### Cartesian graphs

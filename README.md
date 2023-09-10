@@ -54,9 +54,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=64.5%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td width=21.3%><img src="screenshot/legend/1_0_legend.png" /></td>
-		<td width=14.2%><img src="screenshot/legend/1_1_legend.png" /></td>
+		<td width=64.3%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
+		<td width=21.3%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=14.4%><img src="screenshot/legend/1_1_legend.png" /></td>
 	</tr>
 </table>
 
@@ -69,7 +69,7 @@ The goal of the project is to create visualization graphs that effectively show 
 	</tr>
 	<tr>
 		<td width=75.2%><img src="screenshot/graph/2_tableGraphs.png" /></td>
-		<td width=24.8%><img src="screenshot/legend/2_legend.png" /></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
 	</tr>
 </table>
 
@@ -82,9 +82,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td width=22%><img src="screenshot/legend/3_0_legend.png" /></td>
-		<td width=16%><img src="screenshot/legend/3_1_legend.png" /></td>
+		<td width=60.5%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=16.4%><img src="screenshot/legend/3_4_legend.png" /></td>
 	</tr>
 </table>
 
@@ -97,9 +97,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="screenshot/graph/4_circularGraphs.png"/></td>
-		<td width=21%><img src="screenshot/legend/4_0_legend.png"/></td>
-		<td width=16.7%><img src="screenshot/legend/4_1_legend.png"/></td>
+		<td width=60.5%><img src="screenshot/graph/4_circularGraphs.png"/></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
+		<td width=16.4%><img src="screenshot/legend/3_4_legend.png"/></td>
 	</tr>
 </table>
 
@@ -137,8 +137,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=74%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
-		<td width=26%><img src="screenshot/legend/7_legend.png"/></td>
+		<td width=75.2%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
 	</tr>
 </table>
 

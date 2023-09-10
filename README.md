@@ -160,67 +160,64 @@ The goal of the project is to create visualization graphs that effectively show 
 Both the graphs and their respective legends are created via a D3.js, a JavaScript library for producing dynamic, interactive data visualizations; this library allows images to be developed as *.svg* (Scalable Vector Graphics). The central design concept of D3 is to allow the programmer to use selectors to choose nodes within the DOM and then use operators to manipulate them.
 
 ### Code example for the graph
-<pre>
-	// Creating new svg over a div for the graph
-	```javascript
-	this.svg = elementDiv.append("div")
-	    .append("svg")
-	    .attr("width", this.svgDimension)
-	    .attr("height", this.svgDimension)
-	    .attr("viewBox", [0, 0, this.svgDimension, this.svgDimension])
-	    .append("g");
-	```
 
-		
-	// Creating internal svg content
-	```javascript
-	this.svg.append('circle')
-	    .attr('cx', xCoord)
-	    .attr('cy', yCoord)
-	    .attr('r', this.linearScale(Math.abs(value)))
-	    .attr('stroke', 'black')
-	    .attr('fill', colorScale(value))
-	    .on("mouseover", () => {
-		this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "#0BDA51");
-		this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "#0BDA51");
-	    })
-	    .on("mouseout", () => {
-		this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "black");
-		this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "black");
-	    })
-	    .append("title")
-	    .text(value);
-	```
-</pre>
+```javascript
+// Creating new svg over a div for the graph
+this.svg = elementDiv.append("div")
+    .append("svg")
+    .attr("width", this.svgDimension)
+    .attr("height", this.svgDimension)
+    .attr("viewBox", [0, 0, this.svgDimension, this.svgDimension])
+    .append("g");
+```
+	
+```javascript
+// Creating internal svg content
+this.svg.append('circle')
+    .attr('cx', xCoord)
+    .attr('cy', yCoord)
+    .attr('r', this.linearScale(Math.abs(value)))
+    .attr('stroke', 'black')
+    .attr('fill', colorScale(value))
+    .on("mouseover", () => {
+	this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "#0BDA51");
+	this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "#0BDA51");
+    })
+    .on("mouseout", () => {
+	this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "black");
+	this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "black");
+    })
+    .append("title")
+    .text(value);
+```
 
 ### Code example for legends
-<pre>
-	// Creating images and numbers to form a legend
-	```javascript
-	const legendscale = d3.scaleLinear()
-		.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
-		.domain(colorScale.domain());
-	
-	const legendaxis = d3.axisRight()
-		.scale(legendscale)
-		.tickSize(6)
-		.ticks(8);
-	
-	const svg = colorLegendContainer
-		.append("svg")
-		.attr("height", svgDimension)
-		.attr("width", legendWidth);
+```javascript
+// Creating images and numbers to form a legend
+const legendscale = d3.scaleLinear()
 
-	svg.append("g")
-		.attr("class", "axis")
-		.attr("transform", "translate(" + (legendMargin.right + 80 + legendMargin.left/2) + "," + (legendMargin.top) + ")")
-		.call(legendaxis);
-	
-	svg.append("rect")
-		.attr("x", legendMargin.left)
-		.attr("y", legendMargin.top)
-		.attr("width", 80)
-		.attr("height", svgDimension-legendMargin.top-margin.bottom)
-		.attr("fill", "url(#" + tag + "colorGrad)");
-	```
-</pre>
+	.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
+	.domain(colorScale.domain());
+
+const legendaxis = d3.axisRight()
+	.scale(legendscale)
+	.tickSize(6)
+	.ticks(8);
+
+const svg = colorLegendContainer
+	.append("svg")
+	.attr("height", svgDimension)
+	.attr("width", legendWidth);
+
+svg.append("g")
+	.attr("class", "axis")
+	.attr("transform", "translate(" + (legendMargin.right + 80 + legendMargin.left/2) + "," + (legendMargin.top) + ")")
+	.call(legendaxis);
+
+svg.append("rect")
+	.attr("x", legendMargin.left)
+	.attr("y", legendMargin.top)
+	.attr("width", 80)
+	.attr("height", svgDimension-legendMargin.top-margin.bottom)
+	.attr("fill", "url(#" + tag + "colorGrad)");
+```

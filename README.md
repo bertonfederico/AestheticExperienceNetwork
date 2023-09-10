@@ -1,5 +1,14 @@
 ![alt text](screenshot/0_first_page.png)
 
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
 # Description of the project
 The project aims to
 - develop a system for visualizing a dataset that is intended to represent eight networks that model an aesthetic experience of the viewers when observing artworks;

@@ -195,7 +195,6 @@ this.svg.append('circle')
 ```javascript
 // Creating images and numbers to form a legend
 const legendscale = d3.scaleLinear()
-
 	.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
 	.domain(colorScale.domain());
 

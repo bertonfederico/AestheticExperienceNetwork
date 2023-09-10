@@ -1,6 +1,6 @@
 # AestheticExperienceNetwork
 
-![alt text](https://github.com/bertonfederico/AestheticExperienceNetwork/blob/eaa98664baccc1488522df325fbf222fbaa9d960/screenshot/first_page.png)
+![alt text](screenshot/first_page.png)
 
 ## Description of the project
 The project aims to
@@ -17,8 +17,8 @@ The dataset used in the project are the result of the research presented in the 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=90%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/b2143ff102fe78d81c0267757d13f10aa7538431/res/aesthetic_experience_network_image_example.png" /></td>
-		<td width=10%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/b2143ff102fe78d81c0267757d13f10aa7538431/res/aesthetic_experience_network_image_legend.png" /></td>
+		<td width=90%><img src="res/aesthetic_experience_network_image_example.png" /></td>
+		<td width=10%><img src="res/aesthetic_experience_network_image_legend.png" /></td>
 	</tr>
 </table>
 
@@ -55,9 +55,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=64.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td width=21.3%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/legend/1_0_legend.png" /></td>
-		<td width=14.2%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/853a1de6c4968d28a6e42c1cc243991e5bcd19e0/screenshot/legend/1_1_legend.png" /></td>
+		<td width=64.5%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
+		<td width=21.3%><img src="screenshot/legend/1_0_legend.png" /></td>
+		<td width=14.2%><img src="screenshot/legend/1_1_legend.png" /></td>
 	</tr>
 </table>
 
@@ -69,8 +69,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=73.7%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/2_tableGraphs.png" /></td>
-		<td width=26.3%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/2_legend.png" /></td>
+		<td width=75.2%><img src="screenshot/graph/2_tableGraphs.png" /></td>
+		<td width=24.8%><img src="screenshot/legend/2_legend.png" /></td>
 	</tr>
 </table>
 
@@ -83,9 +83,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td width=22%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_0_legend.png" /></td>
-		<td width=16%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/3_1_legend.png" /></td>
+		<td width=60%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td width=22%><img src="screenshot/legend/3_0_legend.png" /></td>
+		<td width=16%><img src="screenshot/legend/3_1_legend.png" /></td>
 	</tr>
 </table>
 
@@ -98,9 +98,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/4_circularGraphs.png"/></td>
-		<td width=21%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_0_legend.png"/></td>
-		<td width=16.7%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/4_1_legend.png"/></td>
+		<td width=60%><img src="screenshot/graph/4_circularGraphs.png"/></td>
+		<td width=21%><img src="screenshot/legend/4_0_legend.png"/></td>
+		<td width=16.7%><img src="screenshot/legend/4_1_legend.png"/></td>
 	</tr>
 </table>
 
@@ -112,8 +112,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color&radius legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/5_radius%20Graphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/5_legend.png"/></td>
+		<td width=60%><img src="screenshot/graph/5_radiusGraphs.png"/></td>
+		<td><img src="screenshot/legend/5_legend.png"/></td>
 	</tr>
 </table>
 
@@ -125,8 +125,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Painting legend</th>
 	</tr>
 	<tr>
-		<td width=70.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/6_radarGraphs.png"/></td>
-		<td width=29.5%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/legend/6_legend.png"/></td>
+		<td width=70.5%><img src="screenshot/graph/6_radarGraphs.png"/></td>
+		<td width=29.5%><img src="screenshot/legend/6_legend.png"/></td>
 	</tr>
 </table>
 
@@ -138,8 +138,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/8b44a23f9c5ace2ad0d953cf68a4805f7b9fb107/screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
-		<td><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/a6358d8da36717c54eca951eca3f508b54ba715b/screenshot/legend/7_legend.png"/></td>
+		<td width=74%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
+		<td width=26%><img src="screenshot/legend/7_legend.png"/></td>
 	</tr>
 </table>
 
@@ -151,7 +151,7 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=87%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/6f81ccaba19acc777c9dba37e0d452563f2cd291/screenshot/graph/8_surfaceGraphs.png"/></td>
-		<td width=13%><img src="https://github.com/bertonfederico/AestheticExperienceNetwork/blob/dcb54fe98daa65d6cdcc429a187f04bb898593d9/screenshot/legend/8_legend.png"/></td>
+		<td width=87%><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
+		<td width=13%><img src="screenshot/legend/8_legend.png"/></td>
 	</tr>
 </table>

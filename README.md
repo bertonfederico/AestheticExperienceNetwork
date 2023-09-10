@@ -1,6 +1,6 @@
 # AestheticExperienceNetwork
 
-![alt text](screenshot/first_page.png)
+![alt text](screenshot/0_first_page.png)
 
 ## Description of the project
 The project aims to

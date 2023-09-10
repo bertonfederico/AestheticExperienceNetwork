@@ -43,7 +43,7 @@ Consequently, if a given connection (e.g., between ***positive*** and ***active*
 The goal of the project is to create visualization graphs that effectively show the connections between the aesthetic effects experienced during the observation of each painting, with the objectives of:
 - make all the reproduced aesthetic effects and their connections visible in a compact manner;
 - make the differences between the various reproduced connections visibly evident during total viewing;
-- give the ability to focus on a specific connection and view the complete data on the particular connection.
+- give the ability to focus on a specific connection and view the complete data about it.
 
 
 ## Illustration of graphs obtained

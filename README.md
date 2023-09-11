@@ -68,7 +68,8 @@
 </table>
 
 > [!IMPORTANT]
-> #### **$\textcolor{green}{\textsf{Object representing the connection between aesthetic effects:}}$** 
+> 
+> $\textcolor{green}{\textsf{Object representing the connection between aesthetic effects:}}$ <br/>
 > 📌 The graph is depicted through a cartesian plane; <br/>
 > 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.
 >

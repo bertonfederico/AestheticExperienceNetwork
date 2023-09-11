@@ -13,9 +13,11 @@
 <table align="center">
 	<tr>
 		<th>Table example</th>
+		<th>Legend</th>
 	</tr>
 	<tr>
 		<td width=90%><img src="res/aesthetic_experience_network_image_example.png" /></td>
+		<td width=90%><img src="res/aesthetic_experience_network_image_legend.png" /></td>
 	</tr>
 </table>
 
@@ -169,11 +171,9 @@
 <table align="center">
 	<tr>
 		<th>Graph</th>
-		<th>Color legend</th>
 	</tr>
 	<tr>
 		<td width=87%><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
-		<td width=13%><img src="screenshot/legend/8_legend.png"/></td>
 	</tr>
 </table>
 

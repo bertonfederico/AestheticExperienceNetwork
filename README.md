@@ -69,20 +69,21 @@
 
 > [!IMPORTANT]
 > #### **Object representing the connection between aesthetic effects:**
-> - 📌 The graph is depicted through a cartesian plane;
-> - 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.
+> 📌 The graph is depicted through a cartesian plane; <br/>
+> 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.
 >         
 > #### **Ways of representing the connection between aesthetic effects:**
-> * 🔵 ***Circle radius length***: it's directly proportional to the absolute value to be represented, so
+> 🔵 ***Circle radius length***: it's directly proportional to the absolute value to be represented, so
 >   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
->   * it does not give information regarding the positivity or negativity of the correlation;
-> * 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+>   * it does not give information regarding the positivity or negativity of the correlation; <br/>
+> 
+> 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
 >   * it is very useful for differentiating positive and negative values, but
 >   * very low values, both negative and positive, have little different colors and therefore confusable.
 > 
 > #### **Is it possible to visualize the connection between all aesthetic effects considered in a single graph?**
-> - ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however,
-> - ⭕ Each connection between aesthetic effects is reported twice in the graph.
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
+> ⭕ Each connection between aesthetic effects is reported twice in the graph.
 <br/>
 
 ### Table graphs
@@ -99,17 +100,17 @@
 
 > [!IMPORTANT]
 > #### **Object representing the connection between aesthetic effects:**
-> - 📌 The graph is depicted through a table plane;
-> - 📌 Each connection is represented by a square connected vertically and horizontally to two aesthetic effects.
+> 📌 The graph is depicted through a table plane; <br/>
+> 📌 Each connection is represented by a square connected vertically and horizontally to two aesthetic effects.
 >         
 > #### **Ways of representing the connection between aesthetic effects:**
-> * 🔵 ***Square color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+> ***Square color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
 >   * it is very useful for differentiating positive and negative values, but
 >   * very low values, both negative and positive, have little different colors and therefore confusable.
 > 
 > #### **Is it possible to visualize the connection between all aesthetic effects considered in a single graph?**
-> - ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however,
-> - ⭕ Each connection between aesthetic effects is reported twice in the graph.
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
+> ⭕ Each connection between aesthetic effects is reported twice in the graph.
 <br/>
 
 
@@ -129,21 +130,23 @@
 
 > [!IMPORTANT]
 > #### **Object representing the connection between aesthetic effects:**
-> * ⚪ Several circles, each depicting an aesthetic effect,
-> * ➖ connected by lines, which represent the connections between the aesthetic effects, so
-> * 📉 the position of the aesthetic effects (i.e., circles) varies according to the connections between them.
+> ⚪ Several circles, each depicting an aesthetic effect, <br/>
+> ➖ connected by lines, which represent the connections between the aesthetic effects, so <br/>
+> 📉 the position of the aesthetic effects (i.e., circles) varies according to the connections between them.
 >         
 > #### **Ways of representing the connection between aesthetic effects:**
-> * 🔵 ***Line length***: it's inversely proportional to the absolute value to be represented, so
+> 🔵 ***Line length***: it's inversely proportional to the absolute value to be represented, so
 >   	* it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
 >   	* it does not give information regarding the positivity or negativity of the correlation;
-> * 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
-> * 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+> 
+> 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
+> 
+> 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
 >   	* it is very useful for differentiating positive and negative values, but
 >   	* very low values, both negative and positive, have little different colors and therefore confusable.
 > 
 > #### **Is it possible to visualize the connection between all aesthetic effects considered in a single graph?**
-> - ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
 <br/>
 
 ### Circular graphs
@@ -162,20 +165,22 @@
 
 > [!IMPORTANT]
 > #### **Object representing the connection between aesthetic effects:**
-> * ⚪ Several circles, each depicting an aesthetic effect,
-> * ➖ connected by lines, which represent the connections between the aesthetic effects, each of which extends
+> ⚪ Several circles, each depicting an aesthetic effect, <br/>
+> ➖ connected by lines, which represent the connections between the aesthetic effects, each of which extends
 > 	* outward if they have negative value, or
 >  	* inward if they have positive value.
 >         
 > #### **Ways of representing the connection between aesthetic effects:**
-> * 🔵 ***Line position***: each line extends outward if represent negative value, or inward in case of positive value; it'is very useful because
+> 🔵 ***Line position***: each line extends outward if represent negative value, or inward in case of positive value; it'is very useful because
 >   	* overlapping lines are limited (e.g., compared with Force directed graphs);
 >   	* positivity and negativity of values can be identified even in the case of finite numbers (unlike all previous graphs analyzed above).
-> * 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
-> * 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so it is very useful for differentiating positive and negative values.
+> 
+> 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
+> 
+> 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so it is very useful for differentiating positive and negative values.
 > 
 > #### **Is it possible to visualize the connection between all aesthetic effects considered in a single graph?**
-> - ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
 <br/>
 
 ### Radius graphs

@@ -21,33 +21,34 @@
 	</tr>
 </table>
 
-🔵 The source dataset (.xlsx) for each of the paintings analyzed contains a sheet showing a table on which the relationships between the aesthetic effects tested are contained. The aesthetic effects used are the following (each effect is reported together with its opposite):
-- ***positive — negative***
-- ***active — passive***
-- ***still — lively***
-- ***sad — happy***
-- ***peaceful — aggressive***
-- ***hard — soft***
-- ***cold — warm***
-- ***light — heavy***
-- ***rough — smooth***
-- ***spiritual — bodily***
-- ***feminine — masculine***
-- ***cautious — intrusive***
-- ***like — dislike***
-- ***interesting — uninteresting***
-
-🔵 The numerical value has a:
-- minimum value of -1.0 (maximum correlation between one of the two aesthetic effects and the opposite of the other);
-- mean value of 0 (no correlation between the two aesthetic effects)
-- maximum value of 1 (maximum correlation between the two aesthetic effects).
-
-Consequently, if a given connection (e.g., between ***positive*** and ***active***) recorded a positive value (0.108), then, considering the opposite of either (***positive*** and ***passive***), the value becomes negative (-0.108).
-
-🔵 The goal of the project is to create visualization graphs that effectively show the connections between the aesthetic effects experienced during the observation of each painting, with the objectives of:
-- make all the reproduced aesthetic effects and their connections visible in a compact manner;
-- make the differences between the various reproduced connections visibly evident during total viewing;
-- give the ability to focus on a specific connection and view the complete data about it.
+> [!IMPORTANT]
+> The source dataset (.xlsx) for each of the paintings analyzed contains a sheet showing a table on which the relationships between the aesthetic effects tested are contained. The aesthetic effects used are the following (each effect is reported together with its opposite):
+> - ***positive — negative***
+> - ***active — passive***
+> - ***still — lively***
+> - ***sad — happy***
+> - ***peaceful — aggressive***
+> - ***hard — soft***
+> - ***cold — warm***
+> - ***light — heavy***
+> - ***rough — smooth***
+> - ***spiritual — bodily***
+> - ***feminine — masculine***
+> - ***cautious — intrusive***
+> - ***like — dislike***
+> - ***interesting — uninteresting***
+> 
+> The numerical value has a:
+> - minimum value of -1.0 (maximum correlation between one of the two aesthetic effects and the opposite of the other);
+> - mean value of 0 (no correlation between the two aesthetic effects)
+> - maximum value of 1 (maximum correlation between the two aesthetic effects).
+> 
+> Consequently, if a given connection (e.g., between ***positive*** and ***active***) recorded a positive value (0.108), then, considering the opposite of either (***positive*** and ***passive***), the value becomes negative (-0.108).
+> 
+> The goal of the project is to create visualization graphs that effectively show the connections between the aesthetic effects experienced during the observation of each painting, with the objectives of:
+> - make all the reproduced aesthetic effects and their connections visible in a compact manner;
+> - make the differences between the various reproduced connections visibly evident during total viewing;
+> - give the ability to focus on a specific connection and view the complete data about it.
 
 
 # Illustration of graphs obtained

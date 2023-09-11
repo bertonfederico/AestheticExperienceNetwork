@@ -1,11 +1,12 @@
 ![alt text](screenshot/0_first_page.png)
-
+      
 # Description of the project
-The project aims to
-- develop a system for visualizing a dataset that is intended to represent eight networks that model an aesthetic experience of the viewers when observing artworks;
-- create impactful charts or infographics from data through D3.js (JavaScript library).
-
-The dataset used in the project are the result of the research presented in the article "Associating With Art: A Network Model of Aesthetic Effects by Specker et al" which was shared by the authors of the article to have the opportunity to know "how to visualize this data set for an art historical audience or other audience that does not know about network theory". 
+> [!IMPORTANT]
+> The project aims to
+> - develop a system for visualizing a dataset that is intended to represent eight networks that model an aesthetic experience of the viewers when observing artworks;
+> - create impactful charts or infographics from data through D3.js (JavaScript library).
+> 
+> The dataset used in the project are the result of the research presented in the article "Associating With Art: A Network Model of Aesthetic Effects by Specker et al" which was shared by the authors of the article to have the opportunity to know "how to visualize this data set for an art historical audience or other audience that does not know about network theory". 
 
 
 # Illustration of source data
@@ -54,9 +55,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=64.5%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td width=21.3%><img src="screenshot/legend/1_0_legend.png" /></td>
-		<td width=14.2%><img src="screenshot/legend/1_1_legend.png" /></td>
+		<td width=64.3%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
+		<td width=21.3%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=14.4%><img src="screenshot/legend/1_1_legend.png" /></td>
 	</tr>
 </table>
 
@@ -69,7 +70,7 @@ The goal of the project is to create visualization graphs that effectively show 
 	</tr>
 	<tr>
 		<td width=75.2%><img src="screenshot/graph/2_tableGraphs.png" /></td>
-		<td width=24.8%><img src="screenshot/legend/2_legend.png" /></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
 	</tr>
 </table>
 
@@ -82,9 +83,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td width=22%><img src="screenshot/legend/3_0_legend.png" /></td>
-		<td width=16%><img src="screenshot/legend/3_1_legend.png" /></td>
+		<td width=60.5%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=16.4%><img src="screenshot/legend/3_4_legend.png" /></td>
 	</tr>
 </table>
 
@@ -97,9 +98,9 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="screenshot/graph/4_circularGraphs.png"/></td>
-		<td width=21%><img src="screenshot/legend/4_0_legend.png"/></td>
-		<td width=16.7%><img src="screenshot/legend/4_1_legend.png"/></td>
+		<td width=60.5%><img src="screenshot/graph/4_circularGraphs.png"/></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
+		<td width=16.4%><img src="screenshot/legend/3_4_legend.png"/></td>
 	</tr>
 </table>
 
@@ -137,8 +138,8 @@ The goal of the project is to create visualization graphs that effectively show 
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=74%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
-		<td width=26%><img src="screenshot/legend/7_legend.png"/></td>
+		<td width=75.2%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
 	</tr>
 </table>
 
@@ -159,67 +160,63 @@ The goal of the project is to create visualization graphs that effectively show 
 Both the graphs and their respective legends are created via a D3.js, a JavaScript library for producing dynamic, interactive data visualizations; this library allows images to be developed as *.svg* (Scalable Vector Graphics). The central design concept of D3 is to allow the programmer to use selectors to choose nodes within the DOM and then use operators to manipulate them.
 
 ### Code example for the graph
-<pre>
-	// Creating new svg over a div for the graph
-	...
-	this.svg = elementDiv.append("div")
-	    .append("svg")
-	    .attr("width", this.svgDimension)
-	    .attr("height", this.svgDimension)
-	    .attr("viewBox", [0, 0, this.svgDimension, this.svgDimension])
-	    .append("g");
-	...
 
-		
-	// Creating internal svg content
-	...
-	this.svg.append('circle')
-	    .attr('cx', xCoord)
-	    .attr('cy', yCoord)
-	    .attr('r', this.linearScale(Math.abs(value)))
-	    .attr('stroke', 'black')
-	    .attr('fill', colorScale(value))
-	    .on("mouseover", () => {
-		this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "#0BDA51");
-		this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "#0BDA51");
-	    })
-	    .on("mouseout", () => {
-		this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "black");
-		this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "black");
-	    })
-	    .append("title")
-	    .text(value);
-	...
-</pre>
+```javascript
+// Creating new svg over a div for the graph
+this.svg = elementDiv.append("div")
+    .append("svg")
+    .attr("width", this.svgDimension)
+    .attr("height", this.svgDimension)
+    .attr("viewBox", [0, 0, this.svgDimension, this.svgDimension])
+    .append("g");
+```
+	
+```javascript
+// Creating internal svg content
+this.svg.append('circle')
+    .attr('cx', xCoord)
+    .attr('cy', yCoord)
+    .attr('r', this.linearScale(Math.abs(value)))
+    .attr('stroke', 'black')
+    .attr('fill', colorScale(value))
+    .on("mouseover", () => {
+	this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "#0BDA51");
+	this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "#0BDA51");
+    })
+    .on("mouseout", () => {
+	this.svg.select("#" + effect + "ver").transition().duration(500).style("fill", "black");
+	this.svg.select("#" + otherEffect + "hor").transition().duration(500).style("fill", "black");
+    })
+    .append("title")
+    .text(value);
+```
 
 ### Code example for legends
-<pre>
-	// Creating images and numbers to form a legend
-	...
-	const legendscale = d3.scaleLinear()
-		.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
-		.domain(colorScale.domain());
-	
-	const legendaxis = d3.axisRight()
-		.scale(legendscale)
-		.tickSize(6)
-		.ticks(8);
-	
-	const svg = colorLegendContainer
-		.append("svg")
-		.attr("height", svgDimension)
-		.attr("width", legendWidth);
+```javascript
+// Creating images and numbers to form a legend
+const legendscale = d3.scaleLinear()
+	.range([1, svgDimension - legendMargin.top - legendMargin.bottom])
+	.domain(colorScale.domain());
 
-	svg.append("g")
-		.attr("class", "axis")
-		.attr("transform", "translate(" + (legendMargin.right + 80 + legendMargin.left/2) + "," + (legendMargin.top) + ")")
-		.call(legendaxis);
-	
-	svg.append("rect")
-		.attr("x", legendMargin.left)
-		.attr("y", legendMargin.top)
-		.attr("width", 80)
-		.attr("height", svgDimension-legendMargin.top-margin.bottom)
-		.attr("fill", "url(#" + tag + "colorGrad)");
-	...
-</pre>
+const legendaxis = d3.axisRight()
+	.scale(legendscale)
+	.tickSize(6)
+	.ticks(8);
+
+const svg = colorLegendContainer
+	.append("svg")
+	.attr("height", svgDimension)
+	.attr("width", legendWidth);
+
+svg.append("g")
+	.attr("class", "axis")
+	.attr("transform", "translate(" + (legendMargin.right + 80 + legendMargin.left/2) + "," + (legendMargin.top) + ")")
+	.call(legendaxis);
+
+svg.append("rect")
+	.attr("x", legendMargin.left)
+	.attr("y", legendMargin.top)
+	.attr("width", 80)
+	.attr("height", svgDimension-legendMargin.top-margin.bottom)
+	.attr("fill", "url(#" + tag + "colorGrad)");
+```

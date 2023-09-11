@@ -1,6 +1,6 @@
 var legendMargin = {top: 60, right: 20, bottom: 30, left: 2};
 var legendWidth = 130;
-var colorScale = d3.scaleSequential(d3.interpolateLab("red", "blue")).domain([-1, 1]);
+var colorScale = d3.scaleSequential(d3.interpolateRgbBasis(["blue", "purple", "red"])).domain([-1, 1]);
 
 function createColorLegend(colorLegendContainer, svgDimension, tag) {  
  
@@ -49,8 +49,8 @@ function getColorGradient(svg, tag) {
         .attr("y1", "0%")
         .attr("y2", "100%");
 
-    const stops = [{offset: "0%", stopColor: colorScale(-1)}, {offset: "25%", stopColor: colorScale(-0.5)}, {offset: "50%", stopColor: colorScale(0)}, {offset: "75%", stopColor: colorScale(0.5)}, {offset: "100%", stopColor: colorScale(1)}];
-
+    const stops = [{offset: "0%", stopColor: colorScale(-1)}, {offset: "50%", stopColor: colorScale(0)}, {offset: "100%", stopColor: colorScale(1)}];
+    
     lg.selectAll("stop")
         .data(stops)
         .enter().append("stop")

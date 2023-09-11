@@ -61,7 +61,7 @@ The goal of the project is to create visualization graphs that effectively show 
 	</tr>
 </table>
 
-
+> [!IMPORTANT]
 > #### **Object representing the connection between aesthetic effects:**
 > - 📌 The graph is depicted through a cartesian plane;
 > - 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.

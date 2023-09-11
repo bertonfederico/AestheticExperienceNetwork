@@ -1,6 +1,6 @@
 var legendMargin = {top: 60, right: 20, bottom: 30, left: 2};
 var legendWidth = 130;
-var colorScale = d3.scaleSequential(d3.interpolateRgbBasis(["red", "purple", "blue"])).domain([-1, 1]);
+var colorScale = d3.scaleSequential(d3.interpolateRgbBasis(["blue", "purple", "red"])).domain([-1, 1]);
 
 function createColorLegend(colorLegendContainer, svgDimension, tag) {  
  

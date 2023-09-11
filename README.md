@@ -136,14 +136,14 @@
 > <br/><br/>    
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > 🔵 ***Line length***: it's inversely proportional to the absolute value to be represented, so
->   	* it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
->   	* it does not give information regarding the positivity or negativity of the correlation;
+> * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
+> * it does not give information regarding the positivity or negativity of the correlation;
 > 
 > 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
 > 
 > 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
->   	* it is very useful for differentiating positive and negative values, but
->   	* very low values, both negative and positive, have little different colors and therefore confusable.
+> * it is very useful for differentiating positive and negative values, but
+> * very low values, both negative and positive, have little different colors and therefore confusable.
 > <br/><br/>
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
@@ -172,8 +172,8 @@
 > <br/><br/>   
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > 🔵 ***Line position***: each line extends outward if represent negative value, or inward in case of positive value; it'is very useful because
->   	* overlapping lines are limited (e.g., compared with Force directed graphs);
->   	* positivity and negativity of values can be identified even in the case of finite numbers (unlike all previous graphs analyzed above).
+>* overlapping lines are limited (e.g., compared with Force directed graphs);
+>* positivity and negativity of values can be identified even in the case of finite numbers (unlike all previous graphs analyzed above).
 > 
 > 🔵 ***Line width***: it's directly proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in lengths;
 > 

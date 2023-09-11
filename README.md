@@ -68,11 +68,11 @@ The goal of the project is to create visualization graphs that effectively show 
 >         
 > #### **Ways of representing the connection between aesthetic effects:**
 > * 🔵 Circle radius length: it's directly proportional to the absolute value to be represented, so
->   * 🔶 it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
->   * 🔶 it does not give information regarding the positivity or negativity of the correlation;
+>   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
+>   * it does not give information regarding the positivity or negativity of the correlation;
 > * 🔵 Circle color: it is based on color legend, with two very different colors between extreme positivity or negativity, so
->   * 🔶 it is very useful for differentiating positive and negative values, but
->   * 🔶 very low values, both negative and positive, have little different colors and therefore confusable.
+>   * it is very useful for differentiating positive and negative values, but
+>   * very low values, both negative and positive, have little different colors and therefore confusable.
 > 
 > #### **Is it possible to visualize the connection between all aesthetic effects considered in a single graph?**
 > - ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however,

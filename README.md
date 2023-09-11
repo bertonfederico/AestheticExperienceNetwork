@@ -13,11 +13,9 @@
 <table align="center">
 	<tr>
 		<th>Table example</th>
-		<th>Color legend</th>
 	</tr>
 	<tr>
 		<td width=90%><img src="res/aesthetic_experience_network_image_example.png" /></td>
-		<td width=10%><img src="res/aesthetic_experience_network_image_legend.png" /></td>
 	</tr>
 </table>
 

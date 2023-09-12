@@ -70,7 +70,7 @@
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
 > 📌 The graph is depicted through a cartesian plane; <br/>
-> 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.
+> 📌 Each connection is represented ***by a circle*** connected vertically and horizontally to two aesthetic effects.
 > <br/><br/>
 
 > [!IMPORTANT]
@@ -87,7 +87,7 @@
 > [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
-> ⭕ Each connection between aesthetic effects is reported twice in the graph.
+> ⭕ each connection between aesthetic effects is reported twice in the graph.
 <br/>
 
 ### Table graphs
@@ -105,7 +105,7 @@
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
 > 📌 The graph is depicted through a table plane; <br/>
-> 📌 Each connection is represented by a square connected vertically and horizontally to two aesthetic effects.
+> 📌 Each connection is represented ***by a square*** connected vertically and horizontally to two aesthetic effects.
 > <br/><br/>
 
 > [!IMPORTANT]
@@ -139,7 +139,7 @@
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
 > ⚪ Several circles, each depicting an aesthetic effect, <br/>
-> ➖ connected by lines, which represent the connections between the aesthetic effects, so <br/>
+> ➖ are connected ***by lines***, which represent the connections between the aesthetic effects, so <br/>
 > 📉 the position of the aesthetic effects (i.e., circles) varies according to the connections between them.
 > <br/><br/>
 
@@ -178,7 +178,7 @@
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
 > ⚪ Several circles, each depicting an aesthetic effect, <br/>
-> ➖ connected by lines, which represent the connections between the aesthetic effects, each of which extends
+> ➖ are connected ***by lines***, which represent the connections between the aesthetic effects, each of which extends
 > 	* outward if they have negative value, or
 >  	* inward if they have positive value.
 > <br/><br/>
@@ -213,13 +213,13 @@
 
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
-> 🍕 Slices of circle, <br/>
+> 🍕 The connection between the aesthetic effect selected on the top bar and all the rest is shown through ***lices of circle***, <br/>
 > 💿 each of which is in a circular position along with the others.
 > <br/><br/>
 
 > [!IMPORTANT]
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
-> 🔵 ***Slices of circle letnght***: it's directly proportional to the absolute value to be represented, so
+> 🔵 ***Slices of circle lenght***: it's directly proportional to the absolute value to be represented, so
 >   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
 >   * it does not give information regarding the positivity or negativity of the correlation; <br/>
 > 
@@ -247,6 +247,33 @@
 	</tr>
 </table>
 
+> [!IMPORTANT]
+> #### <h3>Object representing the connection between aesthetic effects: </h3>
+> 🔴 The connection between the aesthetic effect selected on the top bar and all the rest is shown through ***circles*** <br/>
+> 🕸 which are connected to each other by a line so as to form a kind of "spider's web".
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Ways of representing the connection between aesthetic effects: </h3>
+> 🔵 ***Circle distance from dashed center***: a dotted circle line is placed around the center; the distance of each circle from this line means that:
+>   * the connection between the aesthetic effects is null, if the position is at the circle;
+>   * the connection between the effects is negative, if the position is outside the circle;
+>   * the connection between the effects is positive, if the position is outside the circle;
+> 
+> 🔵 ***Circle radius length***: it's directly proportional to the absolute value to be represented, so
+>   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
+>   * it does not give information regarding the positivity or negativity of the correlation; <br/>
+>
+> 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+>   * it is very useful for differentiating positive and negative values, but
+>   * very low values, both negative and positive, have little different colors and therefore confusable.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
+> ⭕ A single graph refers to the connections of a single aesthetic effect with the remaining ones, so 
+> ⭕ as many graphs are needed for each painting as aesthetic effects.
+<br/>
 
 ### 3d force directed graphs
 <table align="center">
@@ -296,6 +323,29 @@
 		<td width=87%><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
 	</tr>
 </table>
+
+> [!IMPORTANT]
+> #### <h3>Object representing the connection between aesthetic effects: </h3>
+> 📌 This graph is very similar to the "Cartesian graph" in that the connection between two aesthetic effects is represented in a Cartesian graph, which is, however, three-dimensional instead of two-dimensional.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Ways of representing the connection between aesthetic effects: </h3>
+> 🔵 ***Circle tip height***: the height of the circle is positioned on the z-axis with values z ∈ [-1, 1]; consequently:
+>   * negative values are placed in the lowest part (z ∈ [-1, 0]);
+>   * null values are placed in the middle part (z ∈ [-1, 0]);
+>   * positive values are placed in the highest part (z ∈ [0, 1]).
+>
+> 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+>   * it is very useful for differentiating positive and negative values, but
+>   * very low values, both negative and positive, have little different colors and therefore confusable.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
+> ⭕ each connection between aesthetic effects is reported twice in the graph.
+<br/>
 
 ## Description of development mode
 Both the graphs and their respective legends are created via a D3.js, a JavaScript library for producing dynamic, interactive data visualizations; this library allows images to be developed as *.svg* (Scalable Vector Graphics). The central design concept of D3 is to allow the programmer to use selectors to choose nodes within the DOM and then use operators to manipulate them.

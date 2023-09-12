@@ -107,11 +107,15 @@
 > 📌 The graph is depicted through a table plane; <br/>
 > 📌 Each connection is represented by a square connected vertically and horizontally to two aesthetic effects.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > ***Square color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
 >   * it is very useful for differentiating positive and negative values, but
 >   * very low values, both negative and positive, have little different colors and therefore confusable.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
 > ⭕ Each connection between aesthetic effects is reported twice in the graph.
@@ -137,7 +141,9 @@
 > ⚪ Several circles, each depicting an aesthetic effect, <br/>
 > ➖ connected by lines, which represent the connections between the aesthetic effects, so <br/>
 > 📉 the position of the aesthetic effects (i.e., circles) varies according to the connections between them.
-> <br/><br/>    
+> <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > 🔵 ***Line length***: it's inversely proportional to the absolute value to be represented, so
 > * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
@@ -149,6 +155,8 @@
 > * it is very useful for differentiating positive and negative values, but
 > * very low values, both negative and positive, have little different colors and therefore confusable.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
 <br/>
@@ -173,7 +181,9 @@
 > ➖ connected by lines, which represent the connections between the aesthetic effects, each of which extends
 > 	* outward if they have negative value, or
 >  	* inward if they have positive value.
-> <br/><br/>   
+> <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > 🔵 ***Line position***: each line extends outward if represent negative value, or inward in case of positive value; it'is very useful because
 >* overlapping lines are limited (e.g., compared with Force directed graphs);
@@ -183,6 +193,8 @@
 > 
 > 🔵 ***Line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so it is very useful for differentiating positive and negative values.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
 <br/>

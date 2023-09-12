@@ -211,6 +211,28 @@
 	</tr>
 </table>
 
+> [!IMPORTANT]
+> #### <h3>Object representing the connection between aesthetic effects: </h3>
+> 🍕 Slices of circle, <br/>
+> 💿 each of which is in a circular position along with the others.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Ways of representing the connection between aesthetic effects: </h3>
+> 🔵 ***Slices of circle letnght***: it's directly proportional to the absolute value to be represented, so
+>   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
+>   * it does not give information regarding the positivity or negativity of the correlation; <br/>
+> 
+> 🔵 ***Slices of circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+>   * it is very useful for differentiating positive and negative values, but
+>   * very low values, both negative and positive, have little different colors and therefore confusable.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
+> ⭕ A single graph refers to the connections of a single aesthetic effect with the remaining ones, so 
+> ⭕ as many graphs are needed for each painting as aesthetic effects.
+<br/>
 
 ### Radar graphs
 <table align="center">
@@ -236,6 +258,32 @@
 		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
 	</tr>
 </table>
+
+> [!IMPORTANT]
+> #### <h3>Object representing the connection between aesthetic effects: </h3>
+> ⚪ Several spheres, each depicting an aesthetic effect, <br/>
+> ➖ connected by 3D-lines, which represent the connections between the aesthetic effects, which differ
+> * by width (by selecting the view with "same link strength") and
+> * also by length in case the view with "different link strength" is selected; in this case the position of the aesthetic effects (i.e., circles) varies according to the connections between them;
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Ways of representing the connection between aesthetic effects: </h3> 
+> 🔵 ***3D-line width***: it's directly proportional to the absolute value to be represented, so
+> * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
+> * it does not give information regarding the positivity or negativity of the correlation;
+>
+> 🔵 ***3D-line color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+> * it is very useful for differentiating positive and negative values, but
+> * very low values, both negative and positive, have little different colors and therefore confusable.
+>
+> 🔵 ***3D-line length***: ***used only in "different link strength"***, it's inversely proportional to the absolute value to be represented, which increases the visual benefits obtained from the variation in width;
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate.
+<br/>
 
 
 ### Surface graphs

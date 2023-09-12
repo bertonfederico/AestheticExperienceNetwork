@@ -290,7 +290,7 @@
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
 > ⚪ Several spheres, each depicting an aesthetic effect, <br/>
-> ➖ connected by 3D-lines, which represent the connections between the aesthetic effects, which differ
+> ➖ connected by *3D-lines*, which represent the connections between the aesthetic effects, which differ
 > * by width (by selecting the view with "same link strength") and
 > * also by length in case the view with "different link strength" is selected; in this case the position of the aesthetic effects (i.e., circles) varies according to the connections between them;
 > <br/><br/>
@@ -326,7 +326,7 @@
 
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
-> 📌 This graph is very similar to the "Cartesian graph" in that the connection between two aesthetic effects is represented in a Cartesian graph, which is, however, three-dimensional instead of two-dimensional.
+> 📌 This graph is very similar to the ***"Cartesian graph"***, but it is ***three-dimensional*** instead of two-dimensional.
 > <br/><br/>
 
 > [!IMPORTANT]

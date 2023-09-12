@@ -72,15 +72,19 @@
 > 📌 The graph is depicted through a cartesian plane; <br/>
 > 📌 Each connection is represented by a circle connected vertically and horizontally to two aesthetic effects.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Ways of representing the connection between aesthetic effects: </h3>
 > 🔵 ***Circle radius length***: it's directly proportional to the absolute value to be represented, so
 >   * it is useful in observing whether the two aesthetic effects are correlated or connected very slightly, but
 >   * it does not give information regarding the positivity or negativity of the correlation; <br/>
-> 
+>
 > 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
 >   * it is very useful for differentiating positive and negative values, but
 >   * very low values, both negative and positive, have little different colors and therefore confusable.
 > <br/><br/>
+
+> [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
 > ⭕ Each connection between aesthetic effects is reported twice in the graph.

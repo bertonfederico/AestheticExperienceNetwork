@@ -62,8 +62,8 @@
 	</tr>
 	<tr>
 		<td width=64.3%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td width=21.3%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
-		<td width=14.4%><img src="screenshot/legend/1_1_legend.png" /></td>
+		<td width=21.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=14.4%><img src="screenshot/legend/1_6_legend.png" /></td>
 	</tr>
 </table>
 
@@ -98,7 +98,7 @@
 	</tr>
 	<tr>
 		<td width=75.2%><img src="screenshot/graph/2_tableGraphs.png" /></td>
-		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 	</tr>
 </table>
 
@@ -131,7 +131,7 @@
 	</tr>
 	<tr>
 		<td width=60.5%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png" /></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 		<td width=16.4%><img src="screenshot/legend/3_4_legend.png" /></td>
 	</tr>
 </table>
@@ -170,7 +170,7 @@
 	</tr>
 	<tr>
 		<td width=60.5%><img src="screenshot/graph/4_circularGraphs.png"/></td>
-		<td width=20.1%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
+		<td width=20.1%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
 		<td width=16.4%><img src="screenshot/legend/3_4_legend.png"/></td>
 	</tr>
 </table>
@@ -241,8 +241,9 @@
 		<th>Painting legend</th>
 	</tr>
 	<tr>
-		<td width=70.5%><img src="screenshot/graph/6_radarGraphs.png"/></td>
-		<td width=29.5%><img src="screenshot/legend/6_legend.png"/></td>
+		<td width=64.3%><img src="screenshot/graph/6_radarGraphs.png"/></td>
+		<td width=21.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=14.4%><img src="screenshot/legend/1_6_legend.png" /></td>
 	</tr>
 </table>
 
@@ -255,7 +256,7 @@
 	</tr>
 	<tr>
 		<td width=75.2%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
-		<td width=24.8%><img src="screenshot/legend/1_2_3_4_7_legend.png"/></td>
+		<td width=24.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
 	</tr>
 </table>
 

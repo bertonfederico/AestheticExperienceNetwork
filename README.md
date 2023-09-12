@@ -87,7 +87,7 @@
 > [!IMPORTANT]
 > #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
 > ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
-> ⭕ Each connection between aesthetic effects is reported twice in the graph.
+> ⭕ each connection between aesthetic effects is reported twice in the graph.
 <br/>
 
 ### Table graphs
@@ -323,6 +323,29 @@
 		<td width=87%><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
 	</tr>
 </table>
+
+> [!IMPORTANT]
+> #### <h3>Object representing the connection between aesthetic effects: </h3>
+> 📌 This graph is very similar to the "Cartesian graph" in that the connection between two aesthetic effects is represented in a Cartesian graph, which is, however, three-dimensional instead of two-dimensional.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Ways of representing the connection between aesthetic effects: </h3>
+> 🔵 ***Circle tip height***: the height of the circle is positioned on the z-axis with values z ∈ [-1, 1]; consequently:
+>   * negative values are placed in the lowest part (z ∈ [-1, 0]);
+>   * null values are placed in the middle part (z ∈ [-1, 0]);
+>   * positive values are placed in the highest part (z ∈ [0, 1]).
+>
+> 🔵 ***Circle color***: it is based on color legend, with two very different colors between extreme positivity or negativity, so
+>   * it is very useful for differentiating positive and negative values, but
+>   * very low values, both negative and positive, have little different colors and therefore confusable.
+> <br/><br/>
+
+> [!IMPORTANT]
+> #### <h3>Is it possible to visualize the connection between all aesthetic effects considered in a single graph? </h3>
+> ⭕ All connections are visible in a single graph, specific to the painting to which they relate; however, <br/>
+> ⭕ each connection between aesthetic effects is reported twice in the graph.
+<br/>
 
 ## Description of development mode
 Both the graphs and their respective legends are created via a D3.js, a JavaScript library for producing dynamic, interactive data visualizations; this library allows images to be developed as *.svg* (Scalable Vector Graphics). The central design concept of D3 is to allow the programmer to use selectors to choose nodes within the DOM and then use operators to manipulate them.

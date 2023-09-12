@@ -7,7 +7,7 @@ class RadarGraph extends Abstract2DGraph {
 
         const atworkColorArray = ["#00ffff", "#ff00ff", "#00ff00", "#ff0000", "#808000", "#800080", "#c0c0c0", "#000080", "#ffff00", "#008080"];
 
-        super(false, false, false, 540, "radar", d3.scaleLinear().domain([0,1]).range([30,280]), true, true, false, atworkColorArray);
+        super(true, false, true, 540, "radar", d3.scaleLinear().domain([0,1]).range([6,25]), true, true, false, atworkColorArray);
 
         RadarGraph.instance = this;
 
@@ -37,9 +37,18 @@ class RadarGraph extends Abstract2DGraph {
         const effectLinks = graph.links.filter(link => (link.source == effect || link.target == effect));
         const quant = (2*Math.PI)/effectLinks.length;
         const points = [];
+        const maxPointPosition = 110;
+        radiusSvg
+            .append('circle')
+            .attr('cx', 0)
+            .attr('cy', 0)
+            .attr('r', maxPointPosition)
+            .attr('stroke', 'black')
+            .attr('fill','transparent')
+            .style("stroke-dasharray","5,5");
         effectLinks.forEach((link, index) => {
             const angle = quant*index;
-            const point = polarToCartesian(0, 0, this.linearScale(Math.abs(link.weight)), ((angle+quant/2)*180)/Math.PI);
+            const point = polarToCartesian(0, 0, maxPointPosition + maxPointPosition*link.weight, ((angle+quant/2)*180)/Math.PI, link.weight);
             point.description = link.source + " - " + link.target + " -> " + link.weight;
             points.push(point);
             this.createLines(radiusSvg, angle+quant/2);
@@ -121,9 +130,13 @@ class RadarGraph extends Abstract2DGraph {
             .attr('cy', function(d) {
                 return d.y;
             })
-            .attr('r', 10)
+            .attr('r', (d) => {
+                return this.linearScale(Math.abs(d.weight));
+            })
             .attr('stroke', 'black')
-            .attr('fill', '#69a3b2')
+            .attr("fill", function(d) {
+                return colorScale(d.weight);
+            })
             .append("title")
             .text(function(d) {
                 return d.description;

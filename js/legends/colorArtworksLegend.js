@@ -1,6 +1,6 @@
-var margin = {top: 30, right: 0, bottom: 30, left: 90};
+var margin = {top: 60, right: 60, bottom: 30, left: 2};
 
-var svgWidth = 400;
+var svgWidth = 130;
 
 function createArtworkLegend(widthLegendContainer, svgDimension, atworkColorArray) {
  
@@ -9,12 +9,19 @@ function createArtworkLegend(widthLegendContainer, svgDimension, atworkColorArra
         .attr("height", svgDimension)
         .attr("width", svgWidth);
 
+    svg.append("text")
+        .text("Surface color")
+        .attr("text-anchor", "middle")
+        .attr("x", svgWidth/2)
+        .attr("y", 15)
+        .attr('font-weight', 'bold');
+
     const quant = (svgDimension - margin.top - margin.bottom)/(graphData.size-1);
     let level = margin.top;
     let index = 0;
     graphData.forEach((graph, option) => {
         svg.append('circle')
-            .attr('cx', 80)
+            .attr('cx', 30)
             .attr('cy', level)
             .attr('r', 10)
             .attr('stroke', 'black')
@@ -31,7 +38,7 @@ function createArtworkLegend(widthLegendContainer, svgDimension, atworkColorArra
             })
         svg.append("text")
             .text(option)
-            .attr("x", 100)
+            .attr("x", 50)
             .attr("y", level+5)
             .attr('font-weight', 'bold');
         level+=quant;

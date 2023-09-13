@@ -321,7 +321,7 @@
 		<th>Graph</th>
 	</tr>
 	<tr>
-		<td width=87%><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
+		<td><img src="screenshot/graph/8_surfaceGraphs.png"/></td>
 	</tr>
 </table>
 

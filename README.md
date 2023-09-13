@@ -61,8 +61,8 @@
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=64.3%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
-		<td width=21.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=63.6%><img src="screenshot/graph/1_cartesianGraphs.png" /></td>
+		<td width=21.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 		<td width=14.4%><img src="screenshot/legend/1_6_legend.png" /></td>
 	</tr>
 </table>
@@ -97,8 +97,8 @@
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=75.2%><img src="screenshot/graph/2_tableGraphs.png" /></td>
-		<td width=24.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=74.7%><img src="screenshot/graph/2_tableGraphs.png" /></td>
+		<td width=25.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 	</tr>
 </table>
 
@@ -130,8 +130,8 @@
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60.5%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
-		<td width=20.1%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=60%><img src="screenshot/graph/3_forceDirectedGraphs.png" /></td>
+		<td width=20.6%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 		<td width=16.4%><img src="screenshot/legend/3_4_legend.png" /></td>
 	</tr>
 </table>
@@ -169,8 +169,8 @@
 		<th>Width legend</th>
 	</tr>
 	<tr>
-		<td width=60.5%><img src="screenshot/graph/4_circularGraphs.png"/></td>
-		<td width=20.1%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
+		<td width=60%><img src="screenshot/graph/4_circularGraphs.png"/></td>
+		<td width=20.6%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
 		<td width=16.4%><img src="screenshot/legend/3_4_legend.png"/></td>
 	</tr>
 </table>
@@ -206,7 +206,7 @@
 		<th>Color&radius legend</th>
 	</tr>
 	<tr>
-		<td width=60%><img src="screenshot/graph/5_radiusGraphs.png"/></td>
+		<td width=61%><img src="screenshot/graph/5_radiusGraphs.png"/></td>
 		<td><img src="screenshot/legend/5_legend.png"/></td>
 	</tr>
 </table>
@@ -241,11 +241,12 @@
 		<th>Painting legend</th>
 	</tr>
 	<tr>
-		<td width=64.3%><img src="screenshot/graph/6_radarGraphs.png"/></td>
-		<td width=21.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
+		<td width=63.6%><img src="screenshot/graph/6_radarGraphs.png"/></td>
+		<td width=21.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png" /></td>
 		<td width=14.4%><img src="screenshot/legend/1_6_legend.png" /></td>
 	</tr>
 </table>
+
 
 > [!IMPORTANT]
 > #### <h3>Object representing the connection between aesthetic effects: </h3>
@@ -282,8 +283,8 @@
 		<th>Color legend</th>
 	</tr>
 	<tr>
-		<td width=75.2%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
-		<td width=24.8%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
+		<td width=74.7%><img src="screenshot/graph/7_3dForceDirectedGraphs.png"/></td>
+		<td width=25.3%><img src="screenshot/legend/1_2_3_4_6_7_legend.png"/></td>
 	</tr>
 </table>
 

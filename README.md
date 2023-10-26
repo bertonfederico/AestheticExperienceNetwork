@@ -1,5 +1,6 @@
 # Description of the project
-![background1](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/fc40612c-9318-4018-88ed-02d025d11978)
+![pexels-photo_no-attribution-reqd _REV](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/6014e4d5-fbd8-4cb4-8df7-735a61706370)
+
 
 
 > [!IMPORTANT]

@@ -1,5 +1,6 @@
 # Description of the project
- ![background1](https://github.com/bertonfederico/DnaSequenceDataset/assets/105301467/2a1f2b1a-6d8f-4127-b68c-6d037e1e5102)
+![image](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/fc40612c-9318-4018-88ed-02d025d11978)
+
 
 > [!IMPORTANT]
 > The project aims to

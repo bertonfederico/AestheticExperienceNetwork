@@ -1,4 +1,4 @@
-![0_first_page](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/de841229-6701-4e18-8077-f271f54de19e)
+![background1](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/de841229-6701-4e18-8077-f271f54de19e)
       
 # Description of the project
 > [!IMPORTANT]

@@ -1,4 +1,4 @@
-# Description of the project
+# Assthetic Experience Network
 ![pexels-photo_no-attribution-reqd _REV](https://github.com/bertonfederico/AestheticExperienceNetwork/assets/105301467/6014e4d5-fbd8-4cb4-8df7-735a61706370)
 
 
